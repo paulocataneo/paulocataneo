@@ -1,0 +1,96 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Estilização da seção principal */
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Estilo da imagem circular */
+.imagem-circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.imagem-circular img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* Estilo do cabeçalho principal */
+h1 {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Estilização da grid de links sociais */
+.grid-container {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaçamento entre as colunas */
+    margin: auto;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #d3d0d0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.grid-item p {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Estilização dos links */
+.grid-container a {
+    text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilização do hover (quando o mouse passa por cima) */
+.grid-item:hover h3,
+.grid-item:hover p {
+    color: #6c7059; /* Cor mais escura ao passar o mouse */
+    
+}
+
+/* Estilização do rodapé */
+footer {
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+    padding: 10px;
+}
