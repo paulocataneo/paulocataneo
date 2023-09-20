@@ -8,13 +8,13 @@ body, main section footer h1, h2, h3, p {
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    padding: 0px 10px 0px 10px;
+    padding: 5px;
 }
 
 /* Estilização da seção principal */
 main {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 /* Estilo da imagem circular */
@@ -55,7 +55,7 @@ h3 {
     gap: 20px; /* Espaçamento entre as colunas */
     margin: auto;
     align-items: center; /* Centraliza verticalmente os itens */
-    padding: 0px 10px 0px 10px;
+    padding: 5px;
 }
 
 /* Regra de media query para telas menores que 600px */
@@ -64,6 +64,7 @@ h3 {
         grid-template-columns: 1fr; /* Uma coluna em telas menores */
         justify-items: center; /* Centraliza os itens horizontalmente */
         text-align: center; /* Centraliza o texto */
+        padding: 5px;
     }
 }
 
@@ -104,5 +105,5 @@ footer {
     text-align: center;
     background-color: #fff;
     color: #666;
-    padding: 10px;
+    padding: 5px;
 }
