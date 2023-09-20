@@ -47,12 +47,13 @@ h3 {
 
 /* Estilização da grid de links sociais */
 .grid-container {
-    min-width: 300px;
+    min-width: 320px;
     max-width: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Duas colunas */
     gap: 20px; /* Espaçamento entre as colunas */
     margin: auto;
+    align-items: center; /* Centraliza verticalmente os itens */
 }
 
 /* Regra de media query para telas menores que 600px */
