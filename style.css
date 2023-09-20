@@ -1,9 +1,3 @@
-/* Reset de estilos padrão */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
 /* Estilo do corpo da página */
 body {
     font-family: Arial, sans-serif;
