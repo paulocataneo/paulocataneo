@@ -55,6 +55,7 @@ h3 {
     gap: 20px; /* Espaçamento entre as colunas */
     margin: auto;
     align-items: center; /* Centraliza verticalmente os itens */
+    padding: 0px 10px 0px 10px;
 }
 
 /* Regra de media query para telas menores que 600px */
