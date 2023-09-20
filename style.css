@@ -59,6 +59,8 @@ h3 {
 @media screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr; /* Uma coluna em telas menores */
+        justify-items: center; /* Centraliza os itens horizontalmente */
+        text-align: center; /* Centraliza o texto */
     }
 }
 
